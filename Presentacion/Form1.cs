@@ -21,7 +21,7 @@ namespace Presentacion
         //Data Source = (LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\valen\source\repos\ConeccionBD\Presentacion\Prueba.mdf;Integrated Security = True
 
         public void Coneccion() {
-            string connectionString = "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\valen\\source\\repos\\ConeccionBD\\Presentacion\\Prueba.mdf;Integrated Security = True";
+            string connectionString = "Data Source = (LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\valen\\source\\repos\\ConeccionBD\\Presentacion\\Prueba.mdf;Integrated Security = True";
             SqlConnection connection = new SqlConnection(connectionString);
             Mensaje(connection);
         }
